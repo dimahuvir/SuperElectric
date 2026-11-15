@@ -1,0 +1,16 @@
+{
+  "name": "ElectroCAD 3D — Помощник электрика",
+  "short_name": "ElectroCAD 3D",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2933/2933116.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
