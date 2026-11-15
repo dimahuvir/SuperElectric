@@ -15,7 +15,7 @@
 
   <!-- ЛЕВАЯ ПАНЕЛЬ УПРАВЛЕНИЯ -->
   <div class="w-full md:w-[430px] h-[54vh] md:h-full bg-slate-900 border-b md:border-b-0 md:border-r border-slate-700 flex flex-col z-10 shadow-2xl">
-    <!-- Шапка -->
+        <!-- Шапка -->
     <div class="p-3 bg-slate-800 border-b border-slate-700 flex items-center justify-between gap-2">
       <div>
         <h1 class="text-base font-bold text-amber-400 flex items-center gap-1.5">
@@ -23,11 +23,10 @@
         </h1>
         <p class="text-[11px] text-slate-400">Общая РК + труба под каждую коробку</p>
       </div>
-      <button id="btn-install" class="hidden bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold px-2.5 py-1.5 rounded shadow transition shrink-0">
-        📲 Установить App
-      </button>
+      <span class="text-[11px] bg-slate-900 text-emerald-400 border border-emerald-500/40 px-2 py-1 rounded font-mono">
+        v1.0 APK
+      </span>
     </div>
-
     <!-- Навигация по 3 шагам -->
     <div class="grid grid-cols-3 bg-slate-800/70 p-1 gap-1 border-b border-slate-700 text-xs font-semibold">
       <button id="tab-1" onclick="setStep(1)" class="py-2 px-1 rounded bg-amber-500 text-slate-950 transition">
